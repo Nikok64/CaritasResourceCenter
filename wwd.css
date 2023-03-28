@@ -1,0 +1,153 @@
+/*nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: #333;
+
+}
+
+li a {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 14px 2%;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+@media (max-width: 580px) {
+  #logo {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  nav li {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 380px) {
+  nav ul {
+    flex-direction: column;
+    float: none;
+  }
+
+  nav li {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+}
+
+@media (max-width: 380px) {
+  .active {
+    display: none !important;
+    float: left !important;
+  }
+}
+
+.active {
+
+
+  height: 50px;
+  display: inline-block;
+  float: left;
+  padding: 0 !important;
+}
+
+.active img {
+
+  height: 100%;
+  width: 190%;
+  object-fit: fill;
+
+}
+
+.topnav {
+  z-index: 10;
+  overflow: hidden;
+  margin: auto;
+  background-color: #333;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+/*end of nav bar*/
+.intro {
+  background-color: lightblue;
+  height: 300px;
+  width: 100%;
+
+}
+
+.resources {
+  background-color: green;
+  height: 500px;
+  width: 100%;
+
+}
+
+.blogSec {
+  background-color: blue;
+  height: 300px;
+  width: 100%;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  float: center;
+}
+
+.serviceDiv {
+  background-color: skyblue;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+
+  margin-top: 1%;
+}
+
+#abtUsText {
+  margin: 5%;
+  margin-top: 1%;
+}
+
+#readMoreButton {
+  top: 90%;
+  left: 50%;
+}
